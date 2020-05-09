@@ -8,7 +8,9 @@ import random
 """
 Magic 8-ball - A program to answer all your questions
 Copyright (C) 2020 Compass 
-Website: https://8kun.top/slackware/
+Websites:
+    https://8kun.top/slackware/
+    https://github.com/compassnet
 IRC Channels:
     #slackware@irc.rizon.net
     ##python@irc.rizon.net
