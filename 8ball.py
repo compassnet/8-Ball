@@ -87,8 +87,10 @@ class Ball:
             'Don\'t count on it.', 'My reply is no.',
             'My sources say no.', 'Outlook not so good.', 'Very doubtful.'
             ]
-        answers = (affirmative_answers + non_committal_answers
-                + negative_answers)
+        answers = (
+            affirmative_answers + non_committal_answers
+            + negative_answers
+            )
         self.answer = random.choice(answers)
         return self.answer
 
