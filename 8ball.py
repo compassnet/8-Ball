@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: iso-8859-1 -*-
 
+
 import random
+
 
 """
 Magic 8-ball - A program to answer all your questions
@@ -28,6 +30,7 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 MA 02110-1301, USA.
 """
 
+
 class Ball:
     """Class that represents an 8-ball program."""
 
@@ -43,6 +46,7 @@ class Ball:
                 "your woes!"
                 )
         print(message)
+
 
     def question(self):
         """Ask the user a question."""
@@ -64,6 +68,7 @@ class Ball:
             else:
                 # Call reply(self).
                 print(self.reply())
+
 
     def reply(self):
         """Answer the user's question."""
@@ -93,6 +98,7 @@ class Ball:
             )
         self.answer = random.choice(answers)
         return self.answer
+
 
 test = Ball()
 test.instructions()
