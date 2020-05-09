@@ -60,7 +60,7 @@ class Ball:
             self.ask = input(message)
             if self.ask == 'q':
                 print("Quitting 8-ball...")
-                break
+                exit()
             else:
                 # Call reply(self).
                 print(self.reply())
