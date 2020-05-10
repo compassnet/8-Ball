@@ -49,7 +49,6 @@ class Ball:
                 )
         print(message)
 
-
     def question(self):
         """Ask the user a question."""
         """
@@ -70,7 +69,6 @@ class Ball:
             else:
                 # Call reply(self).
                 print(self.reply())
-
 
     def reply(self):
         """Answer the user's question."""
