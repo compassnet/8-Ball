@@ -6,7 +6,7 @@ import random
 
 
 """
-Magic 8-ball - A program to answer all your questions
+Magic 8-Ball - A program to answer all your questions
 Copyright (C) 2020 Compass 
 Websites:
     https://8kun.top/slackware/
@@ -34,16 +34,16 @@ MA 02110-1301, USA.
 
 
 class Ball:
-    """Class that represents an 8-ball program."""
+    """Class that represents an 8-Ball program."""
 
     def __init__(self):
         """Initialize the attributes below if present."""
 
     def instructions(self):
-        """Instructions of the 8-ball program."""
+        """Instructions of the 8-Ball program."""
         # Print an introduction of the program.
         message = (
-                "\nWelcome to the magic 8-ball!"
+                "\nWelcome to the magic 8-Ball!"
                 "\nAsk me any question, and I will truthfully answer "
                 "your woes!"
                 )
@@ -55,7 +55,7 @@ class Ball:
         Ask the user his/her question. 'q' will quit the program, else
         it will continuously ask.
         """
-        message = "\nAsk 8-ball a question ('q' to quit): "
+        message = "\nAsk 8-Ball a question ('q' to quit): "
         """
         If the user types 'q' the program will quit and print the
         message below, otherwise the user expects an answer and the
@@ -64,7 +64,7 @@ class Ball:
         while True:
             self.ask = input(message)
             if self.ask == 'q':
-                print("Quitting 8-ball...")
+                print("Quitting 8-Ball...")
                 exit()
             else:
                 # Call reply(self).
